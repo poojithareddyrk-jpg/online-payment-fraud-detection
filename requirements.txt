@@ -9,3 +9,5 @@ torch
 fastai
 pytorch-tabnet
 lightning-flash[tabular]
+pyarrow
+jupyter
