@@ -221,3 +221,5 @@ __marimo__/
 
 new_data.csv
 *.csv
+*.parquet
+*.pkl
