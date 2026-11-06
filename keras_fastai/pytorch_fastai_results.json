@@ -1,0 +1,7 @@
+{
+    "Model": "PyTorch + fastai TabularLearner",
+    "RMSE": 0.022171196408502743,
+    "MAE": 0.005408662836998701,
+    "R2": 0.6187869310379028,
+    "Training_Time_Seconds": 127.97860479354858
+}
