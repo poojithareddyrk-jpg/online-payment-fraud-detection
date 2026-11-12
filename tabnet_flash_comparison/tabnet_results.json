@@ -1,0 +1,19 @@
+{
+ "model": "PyTorch TabNet",
+ "RMSE": 0.002998043317347765,
+ "R2": 0.9930294787716638,
+ "MAE": 0.0006046798080205917,
+ "train_time_s": 366.0,
+ "precision": 0.9963525835866262,
+ "recall": 0.9975654290931223,
+ "F1": 0.9969586374695864,
+ "ROC_AUC": 0.9996248793405462,
+ "PR_AUC": 0.99462721282659,
+ "epochs_trained": 4,
+ "best_epoch": 4,
+ "note": "Recovered checkpoint after 4 completed epochs (val RMSE 0.0035618562, verified exactly by re-scoring first 200k train rows). Run was planned for up to 8 epochs with early stopping but was interrupted by a sandbox restart after epoch 6; epochs 5-6 were worse on validation (0.00821, 0.01119). Train time from the original log (t=366s at end of epoch 4).",
+ "fit_rows": 4890096,
+ "validation_rows": 200000,
+ "test_rows": 1272524,
+ "validation_note": "first 200,000 train rows, not used for fitting; feature mean/std computed on all 5,090,096 train rows"
+}

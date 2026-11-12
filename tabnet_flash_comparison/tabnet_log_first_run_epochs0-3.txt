@@ -1,0 +1,14 @@
+/home/sandbox/.local/lib/python3.10/site-packages/pytorch_tabnet/abstract_model.py:75: UserWarning: Device used : cpu
+  warnings.warn(f"Device used : {self.device}")
+epoch 0  | loss: 0.0015  | val_0_rmse: 0.005659999791532755|  0:01:29s
+EPOCH 0 {'loss': 0.00149994896415079, 'lr': 0.02, 'val_0_rmse': 0.005658875} t=92s
+Successfully saved model at out/ckpt/tabnet_last.zip
+epoch 1  | loss: 0.00012 | val_0_rmse: 0.00810999982059002|  0:03:00s
+EPOCH 1 {'loss': 0.00012312468903022248, 'lr': 0.02, 'val_0_rmse': 0.008111926} t=183s
+Successfully saved model at out/ckpt/tabnet_last.zip
+epoch 2  | loss: 0.00027 | val_0_rmse: 0.008329999633133411|  0:04:31s
+EPOCH 2 {'loss': 0.000267027238750959, 'lr': 0.02, 'val_0_rmse': 0.00832973} t=274s
+Successfully saved model at out/ckpt/tabnet_last.zip
+epoch 3  | loss: 8e-05   | val_0_rmse: 0.0035600000992417336|  0:06:03s
+EPOCH 3 {'loss': 7.572167092443147e-05, 'lr': 0.02, 'val_0_rmse': 0.0035618562} t=366s
+Successfully saved model at out/ckpt/tabnet_last.zip

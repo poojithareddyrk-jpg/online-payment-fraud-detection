@@ -1,0 +1,18 @@
+{
+ "model": "Lightning Flash TabularRegressor (750k-row stratified train sample)",
+ "RMSE": 0.040901044645578616,
+ "R2": -0.2973534596154592,
+ "MAE": 0.01937203787551879,
+ "train_time_s": 100.2973244190216,
+ "precision": 0.6794871794871795,
+ "recall": 0.06451612903225806,
+ "F1": 0.1178432462479155,
+ "ROC_AUC": 0.8130809083669273,
+ "PR_AUC": 0.23822113851112628,
+ "n_sample": 750000,
+ "n_fraud": 968,
+ "fraud_rate": 0.0012906666666666667,
+ "epochs": 4,
+ "batch_size": 8192,
+ "score_time_s": 38.05013108253479
+}

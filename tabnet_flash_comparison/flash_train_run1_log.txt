@@ -1,0 +1,29 @@
+/home/sandbox/.local/lib/python3.10/site-packages/flash/__init__.py:21: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/sandbox/.local/lib/python3.10/site-packages/flash/__init__.py:21: FutureWarning: In the future `np.bool` will be defined as the corresponding NumPy scalar.
+  if not hasattr(numpy, tp_name):
+/home/sandbox/.local/lib/python3.10/site-packages/pytorch_tabular/models/mixture_density/mdn.py:25: UserWarning: Wandb not installed. WandbLogger will not work.
+  warnings.warn("Wandb not installed. WandbLogger will not work.")
+{'n_sample': 750000, 'n_fraud': 968, 'fraud_rate': 0.0012906666666666667, 'epochs': 4, 'batch_size': 8192}
+sys:1: FutureWarning: Please pass an instantiated object of the `InputTransform` class. Passing the Class and keyword arguments separately has been deprecated since v0.8.0 and will be removed in v0.9.0.
+Using 'tabnet' provided by manujosephv/PyTorch Tabular (https://github.com/manujosephv/pytorch_tabular).
+/home/sandbox/.local/lib/python3.10/site-packages/pytorch_tabular/models/base_model.py:140: UserWarning: Wandb is not installed. Please install wandb to log logits. You can install wandb using pip install wandb or install PyTorch Tabular using pip install pytorch-tabular[all]
+  warnings.warn(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+
+  | Name          | Type                  | Params
+--------------------------------------------------------
+0 | train_metrics | ModuleDict            | 0     
+1 | val_metrics   | ModuleDict            | 0     
+2 | test_metrics  | ModuleDict            | 0     
+3 | adapter       | PytorchTabularAdapter | 6.5 K 
+--------------------------------------------------------
+6.5 K     Trainable params
+0         Non-trainable params
+6.5 K     Total params
+0.026     Total estimated model params size (MB)
+`Trainer.fit` stopped: `max_epochs=4` reached.
+{'n_sample': 750000, 'n_fraud': 968, 'fraud_rate': 0.0012906666666666667, 'epochs': 4, 'batch_size': 8192, 'train_time_s': 100.2973244190216}
