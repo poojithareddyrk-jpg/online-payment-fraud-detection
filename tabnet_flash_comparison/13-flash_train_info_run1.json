@@ -1,1 +1,0 @@
-{"n_sample": 750000, "n_fraud": 968, "fraud_rate": 0.0012906666666666667, "epochs": 4, "batch_size": 8192, "train_time_s": 100.2973244190216}
