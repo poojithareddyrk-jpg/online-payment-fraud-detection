@@ -1,1 +1,0 @@
-{"n_sample": 750000, "n_fraud": 968, "fraud_rate": 0.0012906666666666667, "epochs": 8, "batch_size": 1024, "train_time_s": 246.51615381240845, "final_val_metrics": {"train_loss": 5.7335186284035444e-05, "valid_loss": 0.00024534633848816156, "valid_mean_squared_error": 0.00024534633848816156, "train_mean_squared_error": 0.00020680522720795125}}
